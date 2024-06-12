@@ -1,0 +1,149 @@
+/* header css */
+
+.nav {
+  font-family: Arial;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgba(14, 1, 1, 0.5),
+    rgba(139, 0, 0, 0.5)
+  );
+  /* opacity: .5; */
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+#logo {
+  display: flex;
+  align-items: center; /* Vertically center the image within the anchor */
+}
+
+#logo img {
+  max-width: 100px; /* Adjust the width to your desired size */
+  max-height: 100px; /* Adjust the height to your desired size */
+  margin-right: 10px; /* Add some space between the logo and navigation links */
+}
+
+.nav-bar a {
+  position: relative;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: box-shadow 0.5s;
+}
+
+.nav-bar a.active,
+.nav-bar a:hover {
+  border-image: linear-gradient(to right, #fdf9f9, #f12a0e);
+  border-image-slice: 1;
+  transition: 0.5s;
+  box-shadow: 0 0 10px 5px #c70039;
+}
+
+/* footer css */
+
+footer {
+  font-size: 20px;
+
+  color: white;
+}
+
+.socialMedia {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.column {
+  height: 6em;
+  flex: 1;
+  /* margin-right: 3px; */
+  background-image: linear-gradient(to right, #5f0517, black);
+  transition: transform 0.3s;
+  /* overflow: ; */
+}
+
+.column:hover {
+  transform: scale(1.1);
+}
+
+.column-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.column-image img {
+  width: 125px;
+  height: 100%;
+
+  padding: 5px;
+}
+
+.column-image p {
+  padding-top: 10px;
+}
+.image-text {
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+.image-text p {
+  width: 100%;
+  height: 100%;
+
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.final-footer {
+  width: 100%;
+  /* height: 16em; */
+  background-image: linear-gradient(to right, black, #5f0517, #71797e);
+  display: flex;
+}
+
+.company-logo {
+  width: 300px;
+  height: 200px;
+  background-image: url("Images/b2.png");
+  background-size: cover;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin-top: 3em;
+  margin-left: 4em;
+}
+
+.footer-links li {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}

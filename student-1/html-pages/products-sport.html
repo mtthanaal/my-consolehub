@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Console-hub</title>
+    <link rel="icon" type="image/x-icon" href="../b2.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Copse&family=Open+Sans&family=Poppins:wght@500&family=Roboto+Slab:wght@500&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css-pages/header_footer.css" />
+
+    <link rel="stylesheet" href="../css-pages/products.css" />
+    <link rel="stylesheet" href="../css-pages/utilities.css" />
+  </head>
+
+  <body>
+    <header class="nav">
+      <a href="../../student-2/Main.html" id="logo"
+        ><img src="../images/b2.png"
+      /></a>
+      <nav class="nav-bar">
+        <a href="../../student-2/Main.html">Home</a>
+        <a href="../../student-2/commentForm.html">Comments</a>
+        <a href="">Shop</a>
+        <a href="../../student-3/quiz/quiz.html">Quiz</a>
+        <a href="../../student-4/html-pages/sitemap.html">Site Map</a>
+        <a href="../../student-3/about_us/about_us.html">About Us</a>
+        <a href="../../student-4/html-pages/gallery-page.html">Gallery</a>
+      </nav>
+    </header>
+
+    <div class="pt-200">
+      <div id="shop">
+        <p id="store-title">Welcome to the Console HUb Store Store</p>
+        <div class="product-category-container">
+          <!-- category 1 -->
+          <div class="category-tab category-tab-active">
+            <a class="btn" href="#"> Sport Games </a>
+          </div>
+
+          <!-- category 2 -->
+          <div class="category-tab">
+            <a class="btn" href="./products-car.html"> Car Games </a>
+          </div>
+
+          <!-- category 3 -->
+          <div class="category-tab">
+            <a class="btn" href="./products-puzzle.html"> Puzzle Games </a>
+          </div>
+
+          <!-- category 4 -->
+          <div class="category-tab">
+            <a class="btn" href="./products-shooting.html"> Shooting Games </a>
+          </div>
+        </div>
+
+        <div class="product-items">
+          <div id="total" class="total">Total: Rs.0</div>
+
+          <div class="row">
+            <div class="product-card col-3">
+              <div class="top">
+                <div class="card-img">
+                  <img
+                    class="product-image"
+                    src="../shop/FIFA-23.jpeg.jpg"
+                    alt="card image"
+                  />
+                </div>
+
+                <div class="">
+                  <p class="product-title">FIFA 23</p>
+
+                  <p>
+                    EA SPORTS™ FIFA 23 brings The World's Game to the pitch,
+                    with next-gen HyperMotion2 Technology, women's club
+                    football, two FIFA World Cup™ tournaments
+                  </p>
+                </div>
+              </div>
+
+              <div class="bottom">
+                <p class="card-button minus">-</p>
+                <p class="card-button quantity">0</p>
+                <p class="card-button plus">+</p>
+
+                <p class="cost">Rs.850.00</p>
+              </div>
+            </div>
+
+            <div class="product-card col-3">
+              <div class="top">
+                <div class="card-img">
+                  <img
+                    class="product-image"
+                    src="../shop/Skate-SIm.jpg"
+                    alt="card image"
+                  />
+                </div>
+
+                <div class="">
+                  <p class="product-title">Skate&nbsp;SIm</p>
+                  <p>
+                    Inspired by the golden age of street skating – the 1990s –
+                    Session: Skate Sim lets you experience true skateboarding
+                    and its culture: no scoring system
+                  </p>
+                </div>
+              </div>
+
+              <div class="bottom">
+                <p class="card-button minus">-</p>
+                <p class="card-button quantity">0</p>
+                <p class="card-button plus">+</p>
+
+                <p class="cost">Rs.1000.00</p>
+              </div>
+            </div>
+
+            <div class="product-card col-3">
+              <div class="top">
+                <div class="card-img">
+                  <img
+                    class="product-image"
+                    src="../shop/Rocket-League.jpg"
+                    alt="card image"
+                  />
+                </div>
+
+                <div class="">
+                  <p class="product-title">Rocket League</p>
+                  <p>
+                    THIS IS ROCKET LEAGUE! ... Welcome to the high-powered
+                    hybrid of arcade-style soccer and vehicular mayhem!
+                    Customize your car, hit the field, and compete in one
+                  </p>
+                </div>
+              </div>
+
+              <div class="bottom">
+                <p class="card-button minus">-</p>
+                <p class="card-button quantity">0</p>
+                <p class="card-button plus">+</p>
+
+                <p class="cost">Rs.1200.00</p>
+              </div>
+            </div>
+
+            <div class="product-card col-3">
+              <div class="top">
+                <div class="card-img">
+                  <img
+                    class="product-image"
+                    src="../shop/AEW-Fight-Forever.jpg"
+                    alt="card image"
+                  />
+                </div>
+
+                <div class="">
+                  <p class="product-title">AEW:Fight&nbsp;Forever</p>
+                  <p>
+                    AEW: Fight Forever is the first video game officially
+                    licensed by All Elite Wrestling, the fastest growing
+                    wrestling promotion of all time! The&nbsp;AEW&nbsp;Dynamite
+                  </p>
+                </div>
+              </div>
+
+              <div class="bottom">
+                <p class="card-button minus">-</p>
+                <p class="card-button quantity">0</p>
+                <p class="card-button plus">+</p>
+
+                <p class="cost">Rs.1250.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <form name="products">
+            <div>
+              <p class="card-title">Personal Details</p>
+
+              <div class="row">
+                <label for="first" class="col-12">Name: </label>
+                <input
+                  class="box-size col-4"
+                  type="text"
+                  name="first"
+                  size="20"
+                  maxlength="20"
+                  placeholder="First"
+                  id="first"
+                />
+                <input
+                  class="box-size col-4"
+                  type="text"
+                  name="last"
+                  size="20"
+                  maxlength="20"
+                  placeholder="Last"
+                  id="last"
+                />
+              </div>
+
+              <div class="row">
+                <label for="email" class="col-12">E-mail address: </label>
+                <input
+                  class="box-size col-4"
+                  type="email"
+                  name="email"
+                  size="30"
+                  maxlength="30"
+                  placeholder="Email"
+                  id="email"
+                />
+              </div>
+
+              <div class="row">
+                <label for="telephone" class="col-12"
+                  >Telephone Numbers:
+                </label>
+                <input class="box-size col-4" type="tel" name="telephone1" />
+                <input class="box-size col-4" type="tel" name="telephone2" />
+              </div>
+            </div>
+
+            <!------------------------------------------------------------------------------------------------------------->
+
+            <div class="address">
+              <p class="card-title">Shipping Address:</p>
+
+              <div class="row">
+                <input
+                  class="box-size col-4"
+                  type="text"
+                  name="line1"
+                  size="30"
+                  maxlength="30"
+                  placeholder="Address Line 1"
+                  id="line1"
+                />
+                <input
+                  class="box-size col-4"
+                  type="text"
+                  name="line2"
+                  size="30"
+                  maxlength="30"
+                  placeholder="Address Line 2"
+                  id="line2"
+                />
+                <input
+                  class="box-size col-4"
+                  type="text"
+                  name="line3"
+                  size="30"
+                  maxlength="30"
+                  placeholder="Address Line 3"
+                  id="line3"
+                />
+              </div>
+            </div>
+
+            <!------------------------------------------------------------------------------------------------------------->
+
+            <div>
+              <p class="card-title">Payment Details</p>
+
+              <div class="row">
+                <label class="col-12" for="paymentmode"
+                  >Mode of Payment:
+                </label>
+
+                <div class="col-4 radio1">
+                  <input type="radio" name="mode" id="cash" value="cash" />
+                  <label class="radio-txt" for="cash"> Cash on Delivery </label>
+                </div>
+
+                <div class="col-4 radio1">
+                  <input
+                    type="radio"
+                    name="mode"
+                    id="card"
+                    value="card"
+                    checked=""
+                  />
+                  <label class="radio-txt" for="cash">
+                    Debit/Credit Card
+                  </label>
+                </div>
+              </div>
+
+              <p class="delivery-txt">Choose your preferred Delivery Period:</p>
+              <label class="period" for="from">From: </label>
+              <label class="period to" for="to">To: </label>
+              <input class="box-size" type="date" name="from" id="from" />
+              <input class="box-size" type="date" name="to" id="to" />
+
+              <div id="cardrequired">
+                <div id="bank">
+                  <label for="accnum">Account number: </label>
+                  <label for="expiry">Expiry Date: </label>
+                  <label for="cvv">CVV: </label>
+                </div>
+
+                <div class="bank">
+                  <input
+                    type="number"
+                    name="accnum"
+                    size="20"
+                    maxlength="20"
+                    id="accnum"
+                  />
+                  <input type="month" name="expiry" id="expiry" />
+                  <input
+                    type="number"
+                    name="cvv"
+                    min="000"
+                    max="999"
+                    id="cvv"
+                  />
+                </div>
+              </div>
+
+              <!------------------------------------------------------------------------------------------------------------->
+
+              <label for="notes">Order Notes: </label>
+              <textarea name="notes" id="Account Number"></textarea>
+            </div>
+
+            <!------------------------------------------------------------------------------------------------------------->
+
+            <span class="indent">
+              <b
+                >Every customer is entitled to read the following conditions:</b
+              >
+              <hr id="hrmargin" />
+
+              <p class="conditions">
+                Upon browsing our products and you find something you would like
+                to purchase ,select what you need.Wait for our response for
+                you.We'll update you on the progress of your order via Emails
+                and texts.Payment must be made w/in 2 days from after filling up
+                the order form.
+              </p>
+            </span>
+
+            <div class="warning">
+              <i class="fa fa-warning" aria-hidden="true"></i>
+              All cancelled or unattended orders will be placed in the banned
+              list and will be blocked to avoid future inconvenience.
+            </div>
+            <!------------------------------------------------------------------------------------------------------------->
+            <div id="total-bill" class="total">
+              <p id="bill">Total Bill</p>
+              <p id="summary-total">Rs.0</p>
+            </div>
+
+            <div class="down">
+              <input type="checkbox" name="terms" value="" id="terms" />
+              <label id="policy" for="terms"
+                >I have read and understood the Privacy Policy of Mr.Cricket and
+                I accept all the
+                <a href="termsnconditions.html" target="_blank"
+                  >Terms and conditions</a
+                >.</label
+              >
+            </div>
+
+            <div id="button-row">
+              <input class="btn" type="reset" name="reset" value="Reset Form" />
+              <button
+                class="btn"
+                id="hidesubmit"
+                value="'check validy"
+                disabled=""
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------------------->
+
+      <div id="summary">
+        <p id="summary-title" class="card-title">Order summary</p>
+        <!-- <img src="../shop/summary.png" id="summary-img"> -->
+
+        <form name="summary">
+          <label class="summary-txt">Name:</label>
+          <input type="text" name="name" readonly />
+
+          <label class="summary-txt">Email:</label>
+          <input type="text" name="email" readonly />
+        </form>
+
+        <p id="invoice-title">Invoice Details</p>
+        <hr />
+
+        <div class="summaryitem">
+          <img src="../shop/FIFA-23.jpeg.jpg" class="summary-img" />
+          <div class="detail-card">
+            <p class="item-name">FIFA 23</p>
+            <div class="product-info">
+              <p class="summaryquantity">Quantity: 2</p>
+              <p class="summarycost">Price: Rs.20</p>
+            </div>
+          </div>
+        </div>
+        <div class="summaryitem">
+          <img src="../shop/Skate-SIm.jpg" class="summary-img" />
+          <div class="detail-card">
+            <p class="item-name">Skate SIm</p>
+            <div class="product-info">
+              <p class="summaryquantity">Quantity: 2</p>
+              <p class="summarycost">Price: Rs.20</p>
+            </div>
+          </div>
+        </div>
+        <div class="summaryitem">
+          <img src="../shop/Rocket-League.jpg" class="summary-img" />
+          <div class="detail-card">
+            <p class="item-name">Rocket League</p>
+            <div class="product-info">
+              <p class="summaryquantity">Quantity: 2</p>
+              <p class="summarycost">Price: Rs.20</p>
+            </div>
+          </div>
+        </div>
+        <div class="summaryitem">
+          <img src="../shop/AEW-Fight-Forever.jpg" class="summary-img" />
+          <div class="detail-card">
+            <p class="item-name">AEW:Fight Forever</p>
+            <div class="product-info">
+              <p class="summaryquantity">Quantity: 2</p>
+              <p class="summarycost">Price: Rs.20</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="total-bill">
+          <p id="bill">Total Bill</p>
+          <p id="summary-total">Rs.0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer html -->
+    <footer>
+      <div class="socialMedia">
+        <div class="column">
+          <a href="https://www.instagram.com/">
+            <div class="column-image">
+              <img src="../images/insta1.png" alt="instagram" />
+              <div class="image-text">
+                <p>View our Instagram</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="column">
+          <a href="https://www.youtube.com/">
+            <div class="column-image">
+              <img src="../images/you1.png" alt="youtube" />
+              <div class="image-text">
+                <p>Watch on YouTube</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com/">
+            <div class="column-image">
+              <img src="../images/linkedin.png" alt="LinkedIn" />
+              <div class="image-text">
+                <p>Connect on LinkedIn</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.tiktok.com/en/">
+            <div class="column-image">
+              <img src="../images/tiktok.png" alt="Tiktok" />
+              <div class="image-text">
+                <p>Enjoy our TikToks</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="final-footer">
+        <div class="company-logo"></div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>Company</h2>
+            </li>
+            <br />
+            <li><a href="../../student-2/Main.html">Home</a></li>
+            <li><a href="../../student-2/commentForm.html">Comments</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="../../student-3/quiz/quiz.html">Quiz</a></li>
+            <li>
+              <a href="../../student-4/html-pages/sitemap.html">Site Map</a>
+            </li>
+            <li><a href="#">About Us</a></li>
+            <li>
+              <a href="../../student-4/html-pages/gallery-page.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>Our Products</h2>
+            </li>
+            <br />
+            <li>Sport Games</li>
+            <li>Car Games</li>
+            <li>Puzzle Games</li>
+            <li>Shooting Games</li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>About Us</h2>
+            </li>
+            <br />
+            <li>
+              <p>
+                Unleash the thrill! We're your ultimate<br />
+                gaming destination, offering a collection<br />
+                of shooting, car, puzzle,and sports games. <br />Get ready to
+                embark on exciting adventures<br />
+                and conquer new challenges with us!
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>Page Editor</h2>
+            </li>
+            <br />
+            <div id="editor-name">
+              <a href="../../student-3/page editors/Thanaal.html">
+                <li>Thanaal Fowkhan</li>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://kit.fontawesome.com/d3e6622f3d.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../js/products-sport.js"></script>
+  <script src="../js/header-javascript.js"></script>
+</html>

@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.sitemap {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.sitemap .btnLink:hover {
+  /* opacity: 0.7; */
+  transform: skewX(10deg) translateX(30px);
+  transform-origin: center;
+  transition: all linear .2s;
+  filter: drop-shadow(2px 4px 6px white);
+}
+
+.sitemap h1 {
+  width: fit-content;
+  margin: 0 auto 3rem;
+}
+
+.editpage {
+  position: absolute;
+  text-align-last: right;
+  right: 3%;
+  top: 4vh;
+  margin-top: 1200px;
+}
+
+.editpage img {
+  position: relative;
+  margin: 0px;
+  text-align-last: right;
+  right: 1%;
+  border-radius: 30px;
+}
+
+.editpage img:hover {
+  opacity: 0.7;
+}

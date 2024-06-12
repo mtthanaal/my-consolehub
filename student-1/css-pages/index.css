@@ -1,0 +1,48 @@
+body {
+  color: aliceblue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.profile-pic{
+    height: 30rem;
+    width: 27rem;
+    margin: 0 auto;
+    /* background-color: gray; */
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.presentation-box {
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-size: 25px;
+    margin: 10% auto 9% auto;
+    width: 30rem;
+    filter: drop-shadow(0px 0px 20px rgb(199 0 57));
+    background: #3a3939;
+    /* box-shadow: 0 0 10px 5px rgb(199 0 57); */
+}
+
+.title {
+  font-size: 60px;
+  margin: 5%;
+  color: #e2d784;
+  text-shadow: 3px 3px 3px beige;
+}
+
+p {
+  font-family: inherit;
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+}

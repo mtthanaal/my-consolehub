@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	//background: #646464;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-image:url('../Images/b13.jpg');
+}
+
+
+#news-container{
+	margin: 20px 100px 300px 100px; 
+	padding: 20px 30px 40px 30px;
+	background: white;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	top: 7cm;
+	display: flex;
+    flex-direction: column;
+}
+
+img.news-image{
+	width: 1000px;
+}
+
+h2.sub-topic{
+	margin-top: 1cm;
+	background: yellow;
+	width: auto;
+	padding: 20px;
+}
+
+.para{
+	background: #292C2F;
+	padding: 10px;
+}
+.image-container {
+	text-align: center;
+	display: inline-block;
+}

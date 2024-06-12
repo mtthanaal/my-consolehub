@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Times New Roman"; */
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("Images/b13.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: inherit;
+  margin-top: 200px;
+}
+
+/* scroll button */
+#scrollButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #c70039;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#scrollButton:hover {
+  background-color: #dc3545;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+.intro {
+  transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  width: 400px;
+  /* background-color: grey;<!--use gradient colors--!> */
+  border-radius: 5px;
+  margin: 40px;
+  display: inline-block;
+  border: solid 2px #c81900;
+}
+
+.cards:hover {
+  box-shadow: 3px 3px 12px #c70039;
+}
+
+.image img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  padding: 4px;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c70039;
+  color: white;
+  transition: 0.5s;
+}
+
+.company img {
+  height: 150px;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.content-footer {
+  background-color: black;
+}
+
+.links {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.products {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.social-media {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.links,
+.products,
+.social-media {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-media img {
+  height: 20px;
+  width: 20px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.slideshow-container {
+  width: 50rem;
+  height: 35rem;
+  position: relative;
+  margin: auto;
+}
+
+.characters {
+  left: 20px;
+  width: 20rem;
+  height: 30rem;
+}
+
+.characters img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Add the fade animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}

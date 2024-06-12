@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../my page/Header-Footer/header-footer.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <header class="nav">
+      <a href="../../student-2/Main.html" id="logo"
+        ><img src="../my page/Header-Footer/Images/b2.png"
+      /></a>
+      <nav class="nav-bar">
+        <a href="../../student-2/Main.html">Home</a>
+        <a href="../../student-2/commentForm.html">Comments</a>
+        <a href="../../student-1/html-pages/products-sport.html">Shop</a>
+        <a href="../quiz/quiz.html">Quiz</a>
+        <a href="../../student-4/html-pages/sitemap.html">Site Map</a>
+        <a href="../about_us/about_us.html">About Us</a>
+        <a href="../../student-4/html-pages/gallery-page.html">Gallery</a>
+      </nav>
+    </header>
+
+    <!--Multiple-choice quiz-->
+
+    <div class="" style="padding-top: 120px">
+      <div id="home-area" class="start-question-box">
+        <h3>Welcome to the Quiz</h3>
+        <!--guidelines of the quize -->
+        <br />
+        <p>Total number of questions:<span class="total-questions">10</span></p>
+        <p>You have only 60 sec to think.</p>
+        <p>The time will start after you press the start button</p>
+        <p>Good Luck</p>
+        <button type="button" class="btn" onclick="showQuestions()">
+          Start
+        </button>
+      </div>
+      <!--10 questions included-->
+      <div id="questions-area" hidden>
+        <!--question 1-->
+        <div class="question-box">
+          <p class="question-number">Question 1</p>
+          <p class="question">
+            01.What is the highest selling console of all time?
+          </p>
+          <input
+            type="radio"
+            class="answer"
+            name="answer1"
+            value="0"
+          />Wii<br />
+          <input type="radio" class="answer" name="answer1" value="1" />Xbox
+          360<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer1"
+            value="2"
+          />Gameboy<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer1"
+            value="3"
+          />PlayStation2<br />
+        </div>
+        <!--question 2-->
+        <div class="question-box">
+          <p class="question-number">Question 2</p>
+          <p class="question">
+            02. What was the first commercially successful video game of all
+            time?
+          </p>
+          <input
+            type="radio"
+            class="answer"
+            name="answer2"
+            value="0"
+          />PacMan<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer2"
+            value="1"
+          />Tetris<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer2"
+            value="2"
+          />Pong<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer2"
+            value="3"
+          />Asteroids<br />
+        </div>
+        <!--question 3-->
+        <div class="question-box">
+          <p class="question-number">Question 3</p>
+          <p class="question">
+            03. What is the name of the racing series that is a spinoff of Super
+            Mario Brothers?
+          </p>
+          <input type="radio" class="answer" name="answer3" value="0" />Mario
+          Racers<br />
+          <input type="radio" class="answer" name="answer3" value="1" />Kart
+          Brothers<br />
+          <input type="radio" class="answer" name="answer3" value="2" />Mario
+          Karts<br />
+          <input type="radio" class="answer" name="answer3" value="3" />None of
+          the Above<br />
+        </div>
+        <!--question 4-->
+        <div class="question-box">
+          <p class="question-number">Question 4</p>
+          <p class="question">
+            04. The PlayStation prototype was designed by Sony in collaboration
+            with which company?
+          </p>
+          <input
+            type="radio"
+            class="answer"
+            name="answer4"
+            value="0"
+          />Atari<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer4"
+            value="1"
+          />Nintendo<br />
+          <input type="radio" class="answer" name="answer4" value="2" />
+          Microsoft<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer4"
+            value="3"
+          />sega<br />
+        </div>
+        <!--question 5-->
+        <div class="question-box">
+          <p class="question-number">Question 5</p>
+          <p class="question">
+            05. When was the first Call of Duty Game released?
+          </p>
+          <input
+            type="radio"
+            class="answer"
+            name="answer5"
+            value="0"
+          />2006<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer5"
+            value="1"
+          />2003<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer5"
+            value="2"
+          />2009<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer5"
+            value="3"
+          />2002<br />
+        </div>
+        <!--question 6-->
+        <div class="question-box">
+          <p class="question-number">Question 6</p>
+          <p class="question">
+            06.What is the best selling video game of all time?
+          </p>
+          <input type="radio" class="answer" name="answer6" value="0" />Call of
+          Duty 3<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer6"
+            value="1"
+          />PUBG<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer6"
+            value="2"
+          />Minecraft<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer6"
+            value="3"
+          />Tetris<br />
+        </div>
+        <!--question 7-->
+        <div class="question-box">
+          <p class="question-number">Question 7</p>
+          <p class="question">07. What is the 'Frag' in gaming?</p>
+          <input type="radio" class="answer" name="answer7" value="0" />A
+          Grenade<br />
+          <input type="radio" class="answer" name="answer7" value="1" />Number
+          of Kills<br />
+          <input type="radio" class="answer" name="answer7" value="2" />Number
+          of deaths<br />
+          <input type="radio" class="answer" name="answer7" value="3" />Cheat
+          Code<br />
+        </div>
+        <!--question 8-->
+        <div class="question-box">
+          <p class="question-number">Question 8</p>
+          <p class="question">
+            08.What is the game where players compete in a futuristic version of
+            soccer with cars?
+          </p>
+          <input type="radio" class="answer" name="answer8" value="0" />Rocket
+          League<br />
+          <input type="radio" class="answer" name="answer8" value="1" />FIFA
+          20<br />
+          <input type="radio" class="answer" name="answer8" value="2" />NFS Most
+          Wanted<br />
+          <input type="radio" class="answer" name="answer8" value="3" />Dirt
+          3<br />
+        </div>
+        <!--question 9-->
+        <div class="question-box">
+          <p class="question-number">Question 9</p>
+          <p class="question">09.What is the latest video game console?</p>
+          <input
+            type="radio"
+            class="answer"
+            name="answer9"
+            value="0"
+          />"Nintendo Switch<br />
+          <input type="radio" class="answer" name="answer9" value="1" />Xbox One
+          S<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer9"
+            value="2"
+          />PlayStation5<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer9"
+            value="3"
+          />PlayStation4<br />
+        </div>
+        <!--question 10-->
+        <div class="question-box">
+          <p class="question-number">Question 10</p>
+          <p class="question">
+            10. What is the Game Series that is known for its hard difficulty?
+          </p>
+          <input type="radio" class="answer" name="answer10" value="0" />God of
+          War<br />
+          <input type="radio" class="answer" name="answer10" value="1" />Dark
+          Souls<br />
+          <input
+            type="radio"
+            class="answer"
+            name="answer10"
+            value="2"
+          />Wipeout<br />
+          <input type="radio" class="answer" name="answer10" value="3" />The
+          Elder Scrolls<br />
+        </div>
+
+        <div class="question-box">
+          <button type="button" class="btn" id="toTop" onclick="goToTop()">
+            Back to Top
+          </button>
+          <button type="submit" class="btn" onclick="showResults()">
+            Submit
+          </button>
+        </div>
+      </div>
+      <!-- Results Area-->
+      <div id="results-area" class="results-box" hidden>
+        <h1 class="results">Results</h1>
+        <p class="total" id="total"></p>
+        <table>
+          <tr>
+            <th>Question Number</th>
+            <th>Correct Answer</th>
+            <th>Your Answer</th>
+          </tr>
+          <tr>
+            <td>Question 01</td>
+            <td>3</td>
+            <td id="q1"></td>
+          </tr>
+          <tr>
+            <td>Question 02</td>
+            <td>2</td>
+            <td id="q2"></td>
+          </tr>
+          <tr>
+            <td>Question 03</td>
+            <td>2</td>
+            <td id="q3"></td>
+          </tr>
+          <tr>
+            <td>Question 04</td>
+            <td>1</td>
+            <td id="q4"></td>
+          </tr>
+          <tr>
+            <td>Question 05</td>
+            <td>1</td>
+            <td id="q5"></td>
+          </tr>
+          <tr>
+            <td>Question 06</td>
+            <td>2</td>
+            <td id="q6"></td>
+          </tr>
+          <tr>
+            <td>Question 07</td>
+            <td>1</td>
+            <td id="q7"></td>
+          </tr>
+          <tr>
+            <td>Question 08</td>
+            <td>0</td>
+            <td id="q8"></td>
+          </tr>
+          <tr>
+            <td>Question 09</td>
+            <td>2</td>
+            <td id="q9"></td>
+          </tr>
+          <tr>
+            <td>Question 10</td>
+            <td>1</td>
+            <td id="q10"></td>
+          </tr>
+          <button type="button" class="btn" onclick="startAgain()">
+            Start Again
+          </button>
+        </table>
+      </div>
+    </div>
+    <!-- <div class="editpage">
+      <a href="images/maleesha.html"
+        ><img
+          src="images/editor icon.jpg"
+          alt="Page editor icon"
+          width="125px"
+          height="125px"
+      /></a>
+    </div> -->
+
+    <footer>
+      <div class="socialMedia">
+        <div class="column">
+          <a href="https://www.instagram.com/">
+            <div class="column-image">
+              <img
+                src="../my page/Header-Footer/Images/insta1.png"
+                alt="instagram"
+              />
+              <div class="image-text">
+                <p>View our Instagram</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="column">
+          <a href="https://www.youtube.com/">
+            <div class="column-image">
+              <img
+                src="../my page/Header-Footer/Images/you1.png"
+                alt="youtube"
+              />
+              <div class="image-text">
+                <p>Watch on YouTube</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com/">
+            <div class="column-image">
+              <img
+                src="../my page/Header-Footer/Images/linkedin.png"
+                alt="LinkedIn"
+              />
+              <div class="image-text">
+                <p>Connect on LinkedIn</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.tiktok.com/en/">
+            <div class="column-image">
+              <img
+                src="../my page/Header-Footer/Images/tiktok.png"
+                alt="Tiktok"
+              />
+              <div class="image-text">
+                <p>Enjoy our TikToks</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="final-footer">
+        <div class="company-logo"></div>
+
+        <div class="footer-links">
+          <ul>
+            <li><h2>Company</h2></li>
+            <br />
+            <li><a href="../../../student-2/Main.html">Home</a></li>
+            <li>
+              <a href="../../../student-2/commentForm.html" target="_blank"
+                >Comments</a
+              >
+            </li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><h2>Our Products</h2></li>
+            <br />
+            <li>Sport Games</li>
+            <li>Car Games</li>
+            <li>Puzzle Games</li>
+            <li>Shooting Games</li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><h2>About Us</h2></li>
+            <br />
+            <li>
+              <p>
+                Unleash the thrill! We're your ultimate<br />
+                gaming destination, offering a collection<br />
+                of shooting, car, puzzle,and sports games. <br />Get ready to
+                embark on exciting adventures<br />
+                and conquer new challenges with us!
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><h2>Page Editor</h2></li>
+            <br />
+            <div id="editor-name">
+              <a href="../page editors/maleesha.html">
+                <li>Maleesha pamodya</li></a
+              >
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var totalScore = 0;
+
+      function getRadioValue(radioArray) {
+        var i;
+        for (i = 0; i < radioArray.length; i++) {
+          if (radioArray[i].checked) {
+            return radioArray[i].value;
+          }
+        }
+        return -1;
+      }
+
+      function showResults() {
+        var questionBox = (document.getElementById(
+          "questions-area"
+        ).hidden = true);
+        var resultsBox = (document.getElementById(
+          "results-area"
+        ).hidden = false);
+
+        var q1Answer = getRadioValue(document.getElementsByName("answer1"));
+        var q2Answer = getRadioValue(document.getElementsByName("answer2"));
+        var q3Answer = getRadioValue(document.getElementsByName("answer3"));
+        var q4Answer = getRadioValue(document.getElementsByName("answer4"));
+        var q5Answer = getRadioValue(document.getElementsByName("answer5"));
+        var q6Answer = getRadioValue(document.getElementsByName("answer6"));
+        var q7Answer = getRadioValue(document.getElementsByName("answer7"));
+        var q8Answer = getRadioValue(document.getElementsByName("answer8"));
+        var q9Answer = getRadioValue(document.getElementsByName("answer9"));
+        var q10Answer = getRadioValue(document.getElementsByName("answer10"));
+
+        totalScore = 0;
+
+        if (q1Answer === "3") totalScore += 5;
+        if (q2Answer === "2") totalScore += 5;
+        if (q3Answer === "2") totalScore += 5;
+        if (q4Answer === "1") totalScore += 5;
+        if (q5Answer === "1") totalScore += 5;
+        if (q6Answer === "2") totalScore += 5;
+        if (q7Answer === "1") totalScore += 5;
+        if (q8Answer === "0") totalScore += 5;
+        if (q9Answer === "2") totalScore += 5;
+        if (q10Answer === "1") totalScore += 5;
+
+        document.getElementById("total").textContent =
+          "Your Score: " + totalScore + " out of 50";
+        document.body.style.backgroundColor = "#f2f2f2";
+
+        // Display user answers in the "Your Answer" column
+        document.getElementById("q1").textContent =
+          q1Answer === "-1" ? "Not answered" : q1Answer;
+        document.getElementById("q2").textContent =
+          q2Answer === "-1" ? "Not answered" : q2Answer;
+        document.getElementById("q3").textContent =
+          q3Answer === "-1" ? "Not answered" : q3Answer;
+        document.getElementById("q4").textContent =
+          q4Answer === "-1" ? "Not answered" : q4Answer;
+        document.getElementById("q5").textContent =
+          q5Answer === "-1" ? "Not answered" : q5Answer;
+        document.getElementById("q6").textContent =
+          q6Answer === "-1" ? "Not answered" : q6Answer;
+        document.getElementById("q7").textContent =
+          q7Answer === "-1" ? "Not answered" : q7Answer;
+        document.getElementById("q8").textContent =
+          q8Answer === "-1" ? "Not answered" : q8Answer;
+        document.getElementById("q9").textContent =
+          q9Answer === "-1" ? "Not answered" : q9Answer;
+        document.getElementById("q10").textContent =
+          q10Answer === "-1" ? "Not answered" : q10Answer;
+
+        // Apply color to the score viewer based on the total score
+        var scoreViewer = document.getElementById("total");
+        if (totalScore > 40) {
+          scoreViewer.classList.add("score-viewer-blue");
+        } else if (totalScore > 20) {
+          scoreViewer.classList.add("score-viewer-yellow");
+        } else {
+          scoreViewer.classList.add("score-viewer-red");
+        }
+
+        // Reset the "Your Answer" column cells color
+        var userAnswerCells = document.querySelectorAll("td[id^='q']");
+        for (var i = 0; i < userAnswerCells.length; i++) {
+          // Get the value of the cell (assuming the content is a number)
+          var cellValue = parseInt(userAnswerCells[i].textContent);
+
+          // Check if the cell value is equal to -1
+          if (cellValue === -1) {
+            userAnswerCells[i].style.backgroundColor = "red";
+          } else {
+            // Reset the background color to its default (or any other desired color)
+            userAnswerCells[i].style.backgroundColor = "transparent";
+          }
+        }
+
+        // Display user answers in the "Your Answer" column and apply color to unanswered questions
+        setAnswerAndColor("q1", q1Answer);
+        setAnswerAndColor("q2", q2Answer);
+        setAnswerAndColor("q3", q3Answer);
+        setAnswerAndColor("q4", q4Answer);
+        setAnswerAndColor("q5", q5Answer);
+        setAnswerAndColor("q6", q6Answer);
+        setAnswerAndColor("q7", q7Answer);
+        setAnswerAndColor("q8", q8Answer);
+        setAnswerAndColor("q9", q9Answer);
+        setAnswerAndColor("q10", q10Answer);
+      }
+
+      function goToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      function showQuestions() {
+        var homeBox = (document.getElementById("home-area").hidden = true);
+        var questionBox = (document.getElementById(
+          "questions-area"
+        ).hidden = false);
+        var resultsBox = (document.getElementById(
+          "results-area"
+        ).hidden = true);
+
+        setTimeout(showResults, 60000); // 60 seconds (1000 milliseconds = 1 second)
+        document.body.classList.add("blur-background");
+      }
+      function startAgain() {
+        // Reset the quiz
+        var questionBox = (document.getElementById(
+          "questions-area"
+        ).hidden = false);
+        var resultsBox = (document.getElementById(
+          "results-area"
+        ).hidden = true);
+        document.getElementById("body").classList.remove("blur-background");
+        document.body.style.backgroundColor = "white";
+
+        // Uncheck all radio buttons
+        var radioButtons = document.querySelectorAll("input[type='radio']");
+        for (var i = 0; i < radioButtons.length; i++) {
+          radioButtons[i].checked = false;
+        }
+
+        // Reset the total score and score viewer
+        totalScore = 0;
+        document.getElementById("total").textContent = "";
+        document
+          .getElementById("total")
+          .classList.remove(
+            "score-viewer-blue",
+            "score-viewer-yellow",
+            "score-viewer-red"
+          );
+
+        // Reset the "Your Answer" column
+        var userAnswerCells = document.querySelectorAll("td[id^='q']");
+        for (var i = 0; i < userAnswerCells.length; i++) {
+          userAnswerCells[i].textContent = "";
+
+          function setAnswerAndColor(questionNumber, answer) {
+            var cell = document.getElementById(questionNumber);
+
+            if (answer === "-1") {
+              cell.textContent = "Not answered";
+              cell.style.backgroundColor = "red"; // Apply color to unanswered questions
+            } else {
+              cell.textContent = answer;
+              cell.style.backgroundColor = "green";
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+
+  <script src="../my page/Header-Footer/header-javascript.js"></script>
+</html>

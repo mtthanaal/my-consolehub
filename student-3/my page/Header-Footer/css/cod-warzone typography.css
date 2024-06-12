@@ -1,0 +1,20 @@
+.para{
+	color: white;
+	text-align: justify;
+	font-family: calibri;
+	font-size: 24px;
+}
+
+#news-heading{
+	font-family: moon_light;
+	color: black;
+	text-align: center;
+}
+
+h2.sub-topic{
+	font-family:moon_light;
+}
+
+span.cyberpunk{
+	color: yellow;
+}

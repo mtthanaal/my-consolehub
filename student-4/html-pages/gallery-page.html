@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="ciewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image gallery</title>
+    <link rel="icon" type="image/x-icon" href="../images/b2.png" />
+
+    <link rel="stylesheet" type="text/css" href="../css-pages/gallery.css" />
+    <link rel="stylesheet" href="../css-pages/header_footer.css" />
+    <link rel="stylesheet" href="../css-pages/utilities.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        /* background-color: white; */
+        background-color: black;
+        background-image: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="nav">
+      <a href="../../student-2/Main.html" id="logo"
+        ><img src="../images/b2.png"
+      /></a>
+      <nav class="nav-bar">
+        <a href="../../student-2/Main.html">Home</a>
+        <a href="../../student-2/commentForm.html">Comments</a>
+        <a href="../../student-1/html-pages/products-sport.html">Shop</a>
+        <a href="../../student-3/quiz/quiz.html">Quiz</a>
+        <a href="../../student-4/html-pages/sitemap.html">Site Map</a>
+        <a href="../../student-3/about_us/about_us.html">About Us</a>
+        <a href="./gallery-page.html">Gallery</a>
+      </nav>
+    </header>
+
+    <div class="sec-btn pt-200">
+      <div class="dropdown">
+        <button class="bg-change">Change Background color</button>
+        <div class="dropdown-content">
+          <button onclick="changeColor('grey')">Grey</button>
+          <button onclick="changeColor('brown')">Brown</button>
+          <button onclick="changeColor('yellow')">Yellow</button>
+          <button onclick="changeColor('navy')">Navy</button>
+          <button onclick="changeColor('goldenrod')">Goldenrod</button>
+          <button onclick="changeRandomColor()">Random Color</button>
+        </div>
+      </div>
+
+      <!-- Buttons for text size adjustment and reset -->
+      <div>
+        <button class="text-size-down">-</button><span>Change text size</span
+        ><button class="text-size-up">+</button>
+        <br />
+        <button class="reset-text-size">Reset text size</button>
+      </div>
+    </div>
+
+    <div class="gallery-content">
+      <p class="page-title">Our Gallery</p>
+
+      <div class="row" style="padding: 0 10rem">
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/FIFA-23.jpeg.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>FIFA 23</p>
+            <p>
+              EA SPORTS™ FIFA 23 brings The World's Game to the pitch, with
+              next-gen HyperMotion2 Technology, women's club football, two FIFA
+              World Cup™ tournaments
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/product.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Asphalt Legends 9</p>
+            <p>
+              Take on the world's fearless and become an Asphalt legend in the
+              best arcade racing game on iPhone, iPad, Android and Windows 10.
+              Download Asphalt 9 today!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/product3.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Dirt Rally 2.0</p>
+            <p>
+              DiRT Rally 2.0 dares you to carve your way through a selection of
+              iconic rally locations from across the globe, in the most powerful
+              off-road vehicles ever
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/product4.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Forza Horizon 5</p>
+            <p>
+              Your Ultimate Horizon Adventure awaits! Explore the vibrant open
+              world landscapes of Mexico with limitless, fun driving action in
+              the world's greatest cars.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/product2.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Burnot Paradise</p>
+            <p>
+              Burnout Paradise features even more realistic crashes, 120 unique
+              events, online challenges and free form game play that lets
+              you crash anywhere.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/cod2.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Cod- Warzone</p>
+            <p>
+              With a new game mode, Call of Duty®: Warzone™ offers even more
+              thrilling experiences free for all players. Battle Royale. An epic
+              fight for all-out survival.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/cyberpunk-john-wick.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Cyberpunk</p>
+            <p>
+              With a new game mode, Call of Duty®: Warzone™ offers even more
+              thrilling experiences free for all players. Battle Royale. An epic
+              fight for all-out survival.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/farcry2.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Far-Cry 6</p>
+            <p>
+              Far Cry 6, play as a local Yaran and fight using over-the-top
+              guerrilla tactics and weaponry to liberate your nation.
+            </p>
+          </div>
+        </div>
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/pubg.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>PUBG</p>
+            <p>
+              PUBG: BATTLEGROUNDS is a battle royale that pits 100 players
+              against each other. Outplay your opponents to become the lone
+              survivor. Play free now!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/Skate-SIm.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Skate SIm</p>
+            <p>
+              Inspired by the golden age of street skating – the 1990s –
+              Session: Skate Sim lets you experience true skateboarding and its
+              culture: no scoring system
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/Rocket-League.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Rocket League</p>
+            <p>
+              THIS IS ROCKET LEAGUE! ... Welcome to the high-powered hybrid of
+              arcade-style soccer and vehicular mayhem! Customize your car, hit
+              the field, and compete in one
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/AEW-Fight-Forever.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>AEW:Fight Forever</p>
+            <p>
+              AEW: Fight Forever is the first video game officially licensed by
+              All Elite Wrestling, the fastest growing wrestling promotion of
+              all time! The AEW Dynamite
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/Spirit-of-the-Ancient-Forest.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Spirit of the Ancient Forest.</p>
+            <p>
+              Learn how a simple girl Sarah managed to frustrate the plans of
+              the Dark Lord and to save the Great Tree, which was the soul of
+              the Ancient Forest.
+            </p>
+          </div>
+        </div>
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/Return-of-the-Obra-Dinn.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Return of the Obra Dinn</p>
+            <p>
+              Return of the Obra Dinn is a first-person mystery adventure based
+              on exploration and logical deduction. READ MORE. Mature Content
+              Description.
+            </p>
+          </div>
+        </div>
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/Puzzle-Puppers.jpg" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>Puzzle Puppers</p>
+            <p>
+              Puzzle Puppers is a puzzle game about stretching cute dogs to
+              their food bowls. Easy to learn, difficult to master with
+              deceptively simple
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4 gallery-card">
+          <div class="gallery-img">
+            <img src="../photos/shop/The-Room-Old-Sins.png" alt="" />
+          </div>
+
+          <div class="gallery-description">
+            <p>The Room: Old Sins</p>
+            <p>
+              The 4th entry in the multi-award winning 'The Room' puzzle game
+              series. “The Room's creepy touchscreen puzzle boxes are better
+              than ever in Old Sins;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="socialMedia">
+        <div class="column">
+          <a href="https://www.instagram.com/">
+            <div class="column-image">
+              <img src="../images/insta1.png" alt="instagram" />
+              <div class="image-text">
+                <p>View our Instagram</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="column">
+          <a href="https://www.youtube.com/">
+            <div class="column-image">
+              <img src="../images/you1.png" alt="youtube" />
+              <div class="image-text">
+                <p>Watch on YouTube</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com/">
+            <div class="column-image">
+              <img src="../images/linkedin.png" alt="LinkedIn" />
+              <div class="image-text">
+                <p>Connect on LinkedIn</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.tiktok.com/en/">
+            <div class="column-image">
+              <img src="../images/tiktok.png" alt="Tiktok" />
+              <div class="image-text">
+                <p>Enjoy our TikToks</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="final-footer">
+        <div class="company-logo"></div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>Company</h2>
+            </li>
+            <br />
+            <li><a href="../../student-2/Main.html">Home</a></li>
+            <li><a href="../../student-2/commentForm.html">Comments</a></li>
+            <li>
+              <a href="../../student-1/html-pages/products-sport.html">Shop</a>
+            </li>
+            <li><a href="../../student-3/quiz/quiz.html">Quiz</a></li>
+            <li><a href="../html-pages/sitemap.html">Site Map</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="gallery-page.html">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>Our Products</h2>
+            </li>
+            <br />
+            <li>Sport Games</li>
+            <li>Car Games</li>
+            <li>Puzzle Games</li>
+            <li>Shooting Games</li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>About Us</h2>
+            </li>
+            <br />
+            <li>
+              <p>
+                Unleash the thrill! We're your ultimate<br />
+                gaming destination, offering a collection<br />
+                of shooting, car, puzzle,and sports games. <br />Get ready to
+                embark on exciting adventures<br />
+                and conquer new challenges with us!
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <h2>Page Editor</h2>
+            </li>
+            <br />
+            <div id="editor-name">
+              <a href="../../student-3/page editors/Hamzah.html">
+                <li>Hamzah Shameem</li>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://kit.fontawesome.com/7368c40b21.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../js/gallery.js"></script>
+  <script src="../js/header-javascript.js"></script>
+
+  <script>
+    const images = document.querySelectorAll(".images img");
+    const modal = document.querySelector(".modal");
+    const modalImg = document.querySelector(".modalImg");
+    const modalTxt = document.querySelector(".modalTxt");
+    const close = document.querySelector(".close");
+
+    images.forEach((image) => {
+      image.addEventListener("click", () => {
+        modalImg.src = image.src;
+        modalTxt.innerHTML = image.alt;
+        modal.classList.add("appear");
+
+        close.addEventListener("click", () => {
+          modal.classList.remove("appear");
+        });
+      });
+    });
+  </script>
+</html>

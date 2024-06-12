@@ -1,0 +1,204 @@
+body{
+  background-image: url("../Images/b13.jpg");
+
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px; /* Add some spacing between the columns */
+}
+
+.images a img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.images a:hover img {
+  transform: scale(1.1);
+}
+
+.car-info {
+  margin-top: 5em;
+  width: 80%;
+  height: 500px;
+  background-color: transparent;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+
+  height: 100%;
+
+  margin: 1px solid red;
+}
+
+.row img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.asphalt-game {
+  margin-top: 2em;
+  width: 90%;
+  height: 350px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(46, 2, 2, 1),
+    rgba(139, 0, 0, 1)
+  );
+}
+
+.asphalt-game p {
+  padding-top: 10px;
+  font-size: 18px;
+  /* text-align: center; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.asphalt-game h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.asphalt-game li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* for dirt rally */
+
+.dirtRally-game {
+  margin-top: 2em;
+  width: 90%;
+  height: 350px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(46, 2, 2, 1),
+    rgba(139, 0, 0, 1)
+  );
+}
+
+.dirtRally-game p {
+  padding-top: 10px;
+  font-size: 18px;
+  /* text-align: center; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dirtRally-game h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dirtRally-game li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* for forza horizon */
+.ForzaHorizon-game {
+  margin-top: 2em;
+  width: 90%;
+  color: white;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+  to right,
+  rgb(46, 2, 2, 1),
+  rgba(139, 0, 0, 1)
+);
+}
+
+.ForzaHorizon-game p {
+  padding-top: 10px;
+  font-size: 18px;
+  /* text-align: center; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ForzaHorizon-game h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ForzaHorizon-game li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* FOR burnout paradise */
+.Burnout-game {
+  margin-top: 2em;
+  width: 90%;
+  height: 350px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(46, 2, 2, 1),
+    rgba(139, 0, 0, 1)
+  );
+}
+
+.Burnout-game p {
+  padding-top: 10px;
+  font-size: 18px;
+  /* text-align: center; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Burnout-game h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Burnout-game li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

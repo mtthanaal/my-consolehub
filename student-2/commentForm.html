@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Comments</title>
+    <link rel="stylesheet" href="comment.css" />
+    <link rel="icon" type="image/x-icon" href="Images\b2.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header-footer.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a href="Main.html" id="logo"><img src="Images\b2.png" /></a>
+      <nav class="nav-bar">
+        <a href="Main.html">Home</a>
+        <a href="commentForm.html">Comments</a>
+        <a href="../student-1/html-pages/products-sport.html">Shop</a>
+        <a href="../student-3/quiz/quiz.html">Quiz</a>
+        <a href="../student-4/html-pages/sitemap.html">Site Map</a>
+        <a href="../student-3/about_us/about_us.html">About Us</a>
+        <a href="../student-4/html-pages/gallery-page.html">Gallery</a>
+      </nav>
+    </header>
+    <div class="form">
+      <h1>FeedBack Form</h1>
+
+      <!-- newww for div and thanks -->
+      <div id="thankYouContainer">
+        <h2 id="thankYouMessage">Thank You!</h2>
+        <div id="additionalDiv">Thank you for spending your time.</div>
+      </div>
+
+      <form
+        id="feedback"
+        action="mailto:geeth.20221821@iit.ac.lk"
+        method="post"
+        enctype="text/plain"
+        onsubmit="sendForm(); return false;"
+        ...
+      >
+        <fieldset id="radiofeedback">
+          <div
+            id="ratingErrorDiv"
+            style="
+              display: none;
+              background-color: red;
+              color: white;
+              font-size: 20px;
+              padding: 10px;
+              text-align: center;
+            "
+          >
+            Please select a rating.
+          </div>
+          <span id="feed-para">
+            <p>
+              How satisfied were you with our website today? Choose from 0 to 10
+              , where 0 is extremely dissatisfied and 10 is extremely satisfied.
+              *
+            </p>
+          </span>
+          <br /><br /><br />
+
+          <div class="rating">
+            <label class="radio-container">
+              <span class="num">1</span>
+              <input type="radio" name="Satisfaction" value="1" required />
+            </label>
+            <label class="radio-container">
+              <span class="num">2</span>
+              <input type="radio" name="Satisfaction" value="2" />
+            </label>
+            <label class="radio-container">
+              <span class="num">3</span>
+              <input type="radio" name="Satisfaction" value="3" />
+            </label>
+            <label class="radio-container">
+              <span class="num">4</span>
+              <input type="radio" name="Satisfaction" value="4" />
+            </label>
+            <label class="radio-container">
+              <span class="num">5</span>
+              <input type="radio" name="Satisfaction" value="5" />
+            </label>
+            <label class="radio-container">
+              <span class="num">6</span>
+              <input type="radio" name="Satisfaction" value="6" />
+            </label>
+            <label class="radio-container">
+              <span class="num">7</span>
+              <input type="radio" name="Satisfaction" value="7" />
+            </label>
+            <label class="radio-container">
+              <span class="num">8</span>
+              <input type="radio" name="Satisfaction" value="8" />
+            </label>
+            <label class="radio-container">
+              <span class="num">9</span>
+              <input type="radio" name="Satisfaction" value="9" />
+            </label>
+            <label class="radio-container">
+              <span class="num">10</span>
+              <input type="radio" name="Satisfaction" value="10" />
+            </label>
+          </div>
+        </fieldset>
+        <br />
+
+        <fieldset id="feedbackFieldset">
+          <div
+            id="errorDiv"
+            style="
+              display: none;
+              text-align: center;
+              background-color: red;
+              color: white;
+              padding: 10px;
+              font-size: 20px;
+            "
+          >
+            This field should be filled.
+          </div>
+          <span id="write-review">
+            <p>
+              Please could you tell us your reasons for giving this rating. *
+            </p>
+          </span>
+          <div id="text-area">
+            <textarea
+              id="review"
+              name="reason-for-rating"
+              rows="4"
+              cols="150"
+              required
+            ></textarea>
+          </div>
+        </fieldset>
+        <br /><br />
+
+        <fieldset id="feedbackFieldset">
+          <span id="complete-task">
+            <p>How did you want to complete this task today? (optional)</p>
+          </span>
+          <div class="selectarea">
+            <select name="device-option-used">
+              <option value="Select-please" selected>--Please Select</option>
+              <option value="Phone">Phone</option>
+              <option value="Website">Website</option>
+              <option vlaue="Webchat">Webchat</option>
+              <option value="Social Media">Social Media</option>
+              <option value="Email">Email</option>
+            </select>
+          </div>
+        </fieldset>
+        <br /><br />
+
+        <fieldset>
+          <span id="complete-task">
+            <p>
+              If you had to complete this task again, how would you prefer to do
+              it? (optional)
+            </p>
+          </span>
+          <div class="selectarea">
+            <select name="next-device-option">
+              <option value="Select-please" selected>--Please Select</option>
+              <option value="Phone">Phone</option>
+              <option value="Website">Website</option>
+              <option vlaue="Webchat">Webchat</option>
+              <option value="Social Media">Social Media</option>
+              <option value="Email">Email</option>
+            </select>
+          </div>
+        </fieldset>
+        <br /><br />
+
+        <div class="submission">
+          <input type="reset" value="Clear" />
+
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <footer>
+    <div class="socialMedia">
+      <div class="column">
+        <a href="https://www.instagram.com/">
+          <div class="column-image">
+            <img src="Images/insta1.png" alt="instagram" />
+            <div class="image-text">
+              <p>View our Instagram</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="column">
+        <a href="https://www.youtube.com/">
+          <div class="column-image">
+            <img src="Images/you1.png" alt="youtube" />
+            <div class="image-text">
+              <p>Watch on YouTube</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="column">
+        <a href="https://www.linkedin.com/">
+          <div class="column-image">
+            <img src="Images/linkedin.png" alt="LinkedIn" />
+            <div class="image-text">
+              <p>Connect on LinkedIn</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="column">
+        <a href="https://www.tiktok.com/en/">
+          <div class="column-image">
+            <img src="Images/tiktok.png" alt="Tiktok" />
+            <div class="image-text">
+              <p>Enjoy our TikToks</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="final-footer">
+      <div class="company-logo"></div>
+
+      <div class="footer-links">
+        <ul>
+          <li><h2>Company</h2></li>
+          <br />
+          <li><a href="Main.html">Home</a></li>
+          <li><a href="commentForm.html">Comments</a></li>
+          <li>
+            <a href="../student-1/html-pages/products-sport.html">Shop</a>
+          </li>
+          <li><a href="../student-3/quiz/quiz.html">Quiz</a></li>
+          <li><a href="../student-4/html-pages/sitemap.html">Site Map</a></li>
+          <li><a href="#">About Us</a></li>
+          <li>
+            <a href="../student-4/html-pages/gallery-page.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li><h2>Our Products</h2></li>
+          <br />
+          <li>Sport Games</li>
+          <li>Car Games</li>
+          <li>Puzzle Games</li>
+          <li>Shooting Games</li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li><h2>About Us</h2></li>
+          <br />
+          <li>
+            <p>
+              Unleash the thrill! We're your ultimate<br />
+              gaming destination, offering a collection<br />
+              of shooting, car, puzzle,and sports games. <br />Get ready to
+              embark on exciting adventures<br />
+              and conquer new challenges with us!
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li><h2>Page Editor</h2></li>
+          <br />
+          <div id="editor-name">
+            <a href="../student-3/page editors/Sandeepa.html">
+              <li>Sandeepa Fernando</li></a
+            >
+          </div>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="header-javascript.js"></script>
+  <script src="commentFormJS.js"></script>
+</html>

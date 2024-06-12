@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.container:hover {
+  box-shadow: 0 0 10px 5px #c70039;
+  transition: all 0.2s;
+}

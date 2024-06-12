@@ -1,0 +1,126 @@
+.form {
+  margin: 20px 100px 200px 100px;
+  padding: 20px 30px 40px 30px;
+  background: rgb(63, 16, 16);
+
+  height: 1250px;
+  overflow: hidden;
+  position: relative;
+  top: 2cm;
+}
+
+.form h1 {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 80px;
+}
+
+.radio-container {
+  margin-left: 80px;
+}
+
+#feed-para p {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 18px;
+}
+
+.rating {
+  height: 3em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.num {
+  color: white;
+  margin-right: 5px;
+}
+
+textarea#review {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  height: 7em;
+  width: 80%;
+}
+
+#write-review p {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 18px;
+}
+
+#complete-task p {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 18px;
+}
+
+.selectarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  width: 100%;
+  /* height: 3em; */
+}
+
+.selectarea select {
+  width: 80%;
+  height: 4em;
+  display: block;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  background-image: linear-gradient(to right, #5f0517, black);
+  color: white;
+  font-size: 16px;
+
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+}
+
+/* Hover effect for the reset button */
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-image: linear-gradient(to right, black, #5f0517);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: bold;
+}
+
+.submission {
+  display: flex;
+  justify-content: center;
+}
+
+.submission input {
+  margin: 0 10px;
+}
+
+/* some new thank you */
+/* CSS to hide the "Thank You" message and additional div */
+#thankYouContainer {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#thankYouMessage {
+  font-size: 24px;
+  color: #007bff;
+}
+
+#additionalDiv {
+  font-size: 18px;
+  color: #555;
+}
